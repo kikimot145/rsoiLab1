@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - "7"
+deploy:
+  provider: heroku
+  api_key: 5283e2f0-abc6-488d-a542-fd2cf84f2a66
+  app: kikimot-prog1
