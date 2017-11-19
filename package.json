@@ -1,0 +1,16 @@
+{
+  "name": "rsoi1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start" : "node index.js",
+    "test" : "vows test/* --spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "vows": "^0.8.1"
+  }
+}
